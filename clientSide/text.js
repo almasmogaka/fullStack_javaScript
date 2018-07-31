@@ -1,2 +1,0 @@
-
-let hh = 'Hello everyone';
