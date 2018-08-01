@@ -4,16 +4,21 @@
   "description": "An API endpoints interface",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js index.js"
   },
   "author": "almas",
   "license": "ISC",
   "dependencies": {
+    "boom": "^7.2.0",
     "hapi": "^17.5.2",
     "hapi-auth-jwt2": "^8.1.0",
+    "joi": "^13.5.2",
     "jsonwebtoken": "^8.3.0",
     "knex": "^0.15.2",
-    "mysql": "^2.16.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
     "nodemon": "^1.18.3"
   }
 }
